@@ -15,5 +15,6 @@ public class linearSearch{
         int target=4;
         boolean found = search(target,arr);
         System.err.println(found);
+        sc.close();
     }
 }
